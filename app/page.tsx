@@ -50,7 +50,7 @@ export default function Home() {
           <button className="bg-[#7289DA] hover:bg-teal-400 text-white font-bold rounded w-32 h-12 px-6 py-2 mx-12 my-2">
              Discord
           </button>
-          <button className="bg-sky-50 hover:bg-teal-400 text-slate-950 font-bold rounded w-32 h-12 px-6 py-2 mx-12 my-2">
+          <button className="bg-fuchsia-400 hover:bg-teal-400 text-slate-950 font-bold rounded w-32 h-12 px-6 py-2 mx-12 my-2">
              TableTop
           </button>
         </div>
