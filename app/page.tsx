@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex items-center justify-center w-full h-[65vh] sm:h-[65vh] bg-gradient-to-r from-sky-500 to-indigo-500 border-b-4 border-b-slate-950">
         <div className="flex flex-col items-center justify-center  max-w-[900px]">
           <h1 className="text-center font-bold text-4xl mb-8 w-full">Flip Comp - Build your Composition and words!</h1>
-          <h2 className="text-center font-light w-3/4">Build a deck of Attackers, Tanks and Support units, then use them in tandem to create a unique team composition every round, facing off against your opponent's own team comp.</h2>
+          <h2 className="text-center font-light w-3/4">Build a deck of Attackers, Tanks and Support units, then use them in tandem to create a unique team composition every round, facing off against your opponents own team comp.</h2>
           <button className="bg-orange-400 hover:bg-teal-400 text-white font-bold rounded mt-8 py-4 px-16">
              Pre Order Flip Comp
           </button>
