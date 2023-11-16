@@ -24,17 +24,37 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row items-start bg-white items-center justify-center border-b-4 border-b-slate-950 relative">
+        <div className="flex flex-col items-center relative ml-4 absolute">
+          <Image className="homepageCharacters" width={350} height={350} src="/homepageArt/ApexNoBG.png" alt="Image description"></Image>
+        </div>
+        <div className="flex flex-col items-center relative absolute">
+          <Image className="homepageCharacters" width={350} height={350} src="/homepageArt/BrimstoneNoBG.png" alt="Image description"></Image>
+        </div>
+        <div className="flex flex-col items-center relative absolute">
+          <Image className="homepageCharacters" width={350} height={350} src="/homepageArt/CaltropsNoBG.png" alt="Image description"></Image>
+        </div>
+        <div className="flex flex-col items-center relative absolute">
+          <Image className="homepageCharacters" width={350} height={350} src="/homepageArt/ChorusNoBG.png" alt="Image description"></Image>
+        </div>
+        <div className="flex flex-col items-center relative absolute">
+          <Image className="homepageCharacters" width={350} height={350} src="/homepageArt/JuggernautNoBg.png" alt="Image description"></Image>
+        </div>
+        <div className="flex flex-col items-center relative absolute">
+          <Image className="homepageCharacters" width={350} height={350} src="/homepageArt/PlagueNoBG.png" alt="Image description"></Image>
+        </div>
+      </div>
       <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row items-start bg-white items-center justify-center">
         <div className="flex flex-col items-center pl-2 sm:pl-4 md:pl-6 lg:pl-48 pb-4 pt-4">
-          <Image className="rounded-md mb-4" width={250} height={400} src="/Trading-Card-1-1.svg" alt="Image description"></Image>
+          <Image className="rounded-md mb-4" width={250} height={400} src="/cardArt/Bard1.png" alt="Image description"></Image>
           <h2 className="text-center text-slate-950 w-2/3">Attackers are meant to be used aggresively and distrupt your opponent by destroying their resources</h2>
         </div>
         <div className="flex flex-col items-center pl-4 pr-4 pb-4 pt-4">
-          <Image className="rounded-md mb-4" width={250} height={400} src="/Trading-Card-2-2.svg" alt="Image description"></Image>
+          <Image className="rounded-md mb-4" width={250} height={400} src="/cardArt/Bard2.png" alt="Image description"></Image>
           <h2 className="text-center text-slate-950 w-2/3">Attackers are meant to be used aggresively and distrupt your opponent by destroying their resources</h2>
         </div>
         <div className="flex flex-col items-center pr-2 sm:pr-4 md:pr-6 lg:pr-48 pb-4 pt-4">
-          <Image className="rounded-md mb-4" width={250} height={400} src="/Trading-Card-1-1.svg" alt="Image description"></Image>
+          <Image className="rounded-md mb-4" width={250} height={400} src="/cardArt/Bard3.png" alt="Image description"></Image>
           <h2 className="text-center text-slate-950 w-2/3">Attackers are meant to be used aggresively and distrupt your opponent by destroying their resources</h2>
         </div>
       </div>

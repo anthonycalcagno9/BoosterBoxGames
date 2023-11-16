@@ -29,3 +29,9 @@ body {
 colortest {
   background-color: aliceblue
 }
+
+homepageCharacters {
+  margin-right: -100px;
+  height: 50px;
+  width: 50px;
+}
