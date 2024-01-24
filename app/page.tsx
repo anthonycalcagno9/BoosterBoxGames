@@ -50,47 +50,6 @@ export default function Home() {
             <CharacterInfoPanel2 />
           </div>
         </PageSection>
-        <PageSection>
-          <div className="flex flex-col items-center pl-2 sm:pl-4 md:pl-6 lg:pl-48 pb-4 pt-4">
-            <Image
-              className="rounded-md mb-4"
-              width={250}
-              height={400}
-              src="/cardArt/Bard1.png"
-              alt="Image description"
-            ></Image>
-            <h2 className="text-center text-slate-950 w-2/3">
-              Attackers are meant to be used aggresively and distrupt your
-              opponent by destroying their resources
-            </h2>
-          </div>
-          <div className="flex flex-col items-center pl-4 pr-4 pb-4 pt-4">
-            <Image
-              className="rounded-md mb-4"
-              width={250}
-              height={400}
-              src="/cardArt/Bard2.png"
-              alt="Image description"
-            ></Image>
-            <h2 className="text-center text-slate-950 w-2/3">
-              Attackers are meant to be used aggresively and distrupt your
-              opponent by destroying their resources
-            </h2>
-          </div>
-          <div className="flex flex-col items-center pr-2 sm:pr-4 md:pr-6 lg:pr-48 pb-4 pt-4">
-            <Image
-              className="rounded-md mb-4"
-              width={250}
-              height={400}
-              src="/cardArt/Bard3.png"
-              alt="Image description"
-            ></Image>
-            <h2 className="text-center text-slate-950 w-2/3">
-              Attackers are meant to be used aggresively and distrupt your
-              opponent by destroying their resources
-            </h2>
-          </div>
-        </PageSection>
         <div className="flex flex-col items-center justify-center w-full py-20 items-start bg-gray-100">
           <h1 className="text-center font-bold text-5xl text-slate-950 pb-12">
             Connect with Us!
